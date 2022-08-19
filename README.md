@@ -1,2 +1,2 @@
 # imc
-https://github.com/Thomasvvl/imc/new/master
+https://github.com/Thomasvvl/imc/tree/master
