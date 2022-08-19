@@ -1,0 +1,75 @@
+body {
+
+    text-align: center;
+    background-color: bisque;
+}
+
+#container {
+
+    display: grid;
+    margin: 0 auto;
+    height: 100%;
+    width: 30%;
+    background-color: antiquewhite;
+    padding: 2em;
+    
+    
+}
+
+#container label {
+
+    text-align: left;
+    margin: 1vh;
+
+}
+
+#btn {
+
+    background-color:  rgb(252, 208, 155);
+    border: none;
+    border-radius: 3px;
+    margin: 1vh;
+    padding: 5px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+#btn:hover{
+
+    background-color: rgb(255, 45, 45);
+    transition: 0.4s ease;
+}
+
+#table {
+
+    height: 100px;
+    width: 550px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-top: 3em;
+    border: 5px solid rgb(0, 0, 0);
+    
+}
+
+table, tr, td {
+
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#clear{
+
+    margin: 1em;
+    background-color: rgb(252, 208, 155);
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+#clear:hover{
+    transition: 0.5s ease;
+    background: red;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>IMC</title>
+</head>
+<body>
+
+    <div id="container">
+        
+        <h1> Calculez votre IMC </h1>
+       
+        <label id="wlabel">Poids (KG)</label>
+        <input type="text" id="poids-input">
+        
+        <label id="wlabel">Taille (CM)</label>
+        <input type="text" id="taille-input">
+
+        
+        <button id ="btn">Calculez</button>
+        
+        <label for="btn1-output" id="imclabel">Votre IMC : </label>
+        <input type="text" id="imc-output">
+
+        <button id="clear">RESET</button>
+    
+    </div>
+    
+    <div id="table">
+        <table>
+            <caption> IMC : </caption>
+        <tr>
+            <th>Maigreur</th>
+            <th>Normal</th>
+            <th>Surpoids</th>
+            <th>Obésité modérée</th>
+            <th>Obésité sévère</th>
+        </tr>
+        <tr>
+            <td> Inférieur à 18,5</td>
+            <td> 18,5 à 25 </td>
+            <td> 25 à 30 </td>
+            <td> 30 à 40 </td>
+            <td> Supérieur à 40 </td>
+        </tr>
+        
+        </table>
+        
+    </div>
+
+    <script src="JS/script1.js"></script>
+</body>
+</html>
