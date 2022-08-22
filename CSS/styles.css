@@ -45,9 +45,9 @@ body {
     border: none;
     border-radius: 3px;
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
     color: black;
-    margin: 1vh;
-    padding: 5px;
+    padding: 10px;
     cursor: pointer;
     transition: .4s ease;
 }
