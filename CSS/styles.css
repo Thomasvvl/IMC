@@ -23,7 +23,7 @@ body {
 
 }
 
-#btn {
+#btn{
 
     background-color:  rgb(252, 208, 155);
     border: none;
@@ -38,6 +38,24 @@ body {
 
     background-color: rgb(255, 45, 45);
     transition: 0.4s ease;
+}
+
+.btn-2,a{
+    background-color:  rgb(252, 208, 155);
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    color: black;
+    margin: 1vh;
+    padding: 5px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.btn-2:hover{
+    background-color: rgb(255, 45, 45);
+    transition: 0.4s ease;
+
 }
 
 #table {
